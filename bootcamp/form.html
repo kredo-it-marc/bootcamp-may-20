@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <!-- action => WHERE the data is taken when the user clicks submit -->
+    <!-- method => HOW the data is sent to the action when the user clicks submit -->
+    <form action="" method="">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" placeholder="@username" required><!--text input-->
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required><!--password input-->
+        <input type="submit" value="Login" name="btn_login"><!--subit button: Option 1-->
+    </form>
+
+    <hr>
+    <h1>Other Details</h1>
+    <form action="" method="">
+        <label for="birthday">Birthday</label>
+        <input type="date" name="birthday" id="birthday" required> <!--date input-->
+        <br><br>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="18" max="80" required><!--number input--> 
+        <!-- min => allows you to set the smallest number the input field will accept -->
+        <!-- max => allows you to set the biggest number the input field will accept -->
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="mail@mail.com"><!--email input-->
+        <br><br>
+        <label for="bio">Bio / Description</label>
+        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="place your bio here."></textarea>
+        <br><br>
+        <p>Select your music</p>
+        <input type="radio" name="music" id="pop" value="pop">
+        <label for="pop">Pop</label>
+        <input type="radio" name="music" id="rock" value="rock">
+        <label for="rock">Rock</label>
+        <input type="radio" name="music" id="classical" value="classical">
+        <label for="classical">Classical</label>
+
+        <br><br>
+        <p>Select your hobbies</p>
+        <input type="checkbox" name="hobby" id="painting" value="painting">
+        <label for="painting">Painting</label>
+        <input type="checkbox" name="hobby" id="hiking" value="hiking">
+        <label for="hiking">Hiking</label>
+        <input type="checkbox" name="hobby" id="cycling" value="cycling">
+        <label for="cycling">Cycling</label>
+        <br><br>
+
+        <label for="device">Select your Device;</label>
+        <select name="device" id="device"><!--dropdown list box-->
+            <option value="mobile">Mobile Phone</option>
+            <option value="tablet">Tablet Device</option>
+            <option value="laptop">Laptop Computer</option>
+            <option value="desktop">Desktop Computer</option>
+        </select>
+        <br><br>
+        <label for="device">Select your Device;</label>
+        <select name="device" id="device" multiple><!--multiple select box-->
+            <option value="mobile">Mobile Phone</option>
+            <option value="tablet">Tablet Device</option>
+            <option value="laptop">Laptop Computer</option>
+            <option value="desktop">Desktop Computer</option>
+        </select>
+        <br><br>
+        <label for="photo">Profile Photo</label>
+        <input type="file" name="photo" id="photo">
+        
+        <br><br>
+        <button type="submit" name="btn_submit">Submit</button><!--submit button: option 2-->
+    </form>
+</body>
+</html>

@@ -103,13 +103,13 @@
         </tbody>
     </table>
     <hr>
-    <h1>Rowspan</h1>
+    <h1>Colspan</h1>
 
     <table border="1">
         <thead>
             <tr>
                 <th>Name</th>
-                <th>Contact No.</th>
+                <th colspan="2">Contact No.</th>
             </tr>
         </thead>
         <tbody>
@@ -121,6 +121,28 @@
             <tr>
                 <td>Steve</td>
                 <td>333-333</td>
+                <td>444-444</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+    <h1>Rowspan</h1>
+
+    <table border="1">
+        <tbody>
+            <tr>
+                <th>Name</th>
+                <td>Bill</td>
+                <td>Steeve</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Contact No.</th>
+                <td>111-111</td>
+                <td>333-333</td>
+            </tr>
+            <tr>
+                <td>222-222</td>
                 <td>444-444</td>
             </tr>
         </tbody>

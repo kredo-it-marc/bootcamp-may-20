@@ -1,0 +1,55 @@
+/* EXTERNAL CSS */
+
+/* UNIVERSAL  SELECTOR*/
+*{
+    border: 1px dotted black;
+}
+
+/* ELEMENT SELECTOR*/
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: navy;
+}
+
+/* class selector */
+.text-center{
+    text-align: center;
+}
+
+/* id selector */
+#par-03{
+    font-style: italic;
+    font-size: 20px;
+}
+
+h3{
+    color: darkmagenta;
+}
+
+h3{
+    color: darkorange;
+}
+
+p.style-01{
+    text-align: center;
+    font-style: italic;
+}
+
+p{
+    text-align: right;
+    font-style: normal;
+}
+
+ul{
+    border: 2px solid darkred;
+}
+
+ul li{
+    text-transform: uppercase;
+    color: deeppink;
+}
+
+.list li{
+    font-weight: bold;
+}
