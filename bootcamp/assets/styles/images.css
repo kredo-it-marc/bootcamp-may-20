@@ -1,0 +1,106 @@
+.w-200px{
+    width: 200px;
+}
+
+.w-50-percent{
+    width: 50%;
+}
+
+.h-200px{
+    height: 200px;
+}
+
+.h-50-percent{
+    height: 50%;
+}
+
+.style-01{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 25px;
+    border: 2px solid navy;
+}
+
+.bg-img{
+    background-image: url(../images/dot.jpg);
+}
+
+.bg-no-repeat{
+    background-repeat: no-repeat;
+}
+
+.bg-repeat-x{
+    background-repeat: repeat-x;
+}
+
+.bg-repeat-y{
+    background-repeat: repeat-y;
+}
+
+.bg-repeat{
+    background-repeat: repeat;
+}
+
+.bg-img-2{
+    background-image: url(../images/aswathy-n-srMHHWCTvcU-unsplash.jpg);
+    background-repeat: no-repeat;
+}
+
+.bg-size-cover{
+    background-size: cover;
+}
+
+.bg-size-contain{
+    background-size: contain;
+}
+
+.bg-size-200px-100px{
+    background-size: 200px 100px;
+}
+
+.bg-position-left-top{
+    background-position: left top;
+}
+.bg-position-center-top{
+    background-position: center top;
+}
+.bg-position-right-top{
+    background-position: right top;
+}
+
+.bg-position-left-center{
+    background-position: left center;
+}
+
+.bg-position-center-center{
+    background-position: center center;
+}
+
+.bg-position-right-center{
+    background-position: right center;
+}
+
+.bg-position-left-bottom{
+    background-position: left bottom;
+}
+
+.bg-position-center-bottom{
+    background-position: center bottom;
+}
+
+.bg-position-right-bottom{
+    background-position: right bottom;
+}
+
+.bg-attachment-fixed{
+    background-attachment: fixed;
+}
+
+.bg-attachment-scroll{
+    background-attachment: scroll;
+}
+
+.background{
+    background: darkolivegreen url(../images/aswathy-n-srMHHWCTvcU-unsplash.jpg) no-repeat fixed center;
+    background-size: contain;
+}
