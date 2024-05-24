@@ -25,3 +25,83 @@
 .clear-none{
     clear: none;
 }
+
+.style-01{
+    height:100px;
+    margin-bottom: 25px;
+    border: 2px solid black;
+}
+
+/* 
+    top, right, bottom, left =>positional properties
+    Positional properties and z-index will not work IF the position is SET to STATIC.
+*/
+
+.position-static{
+    background-color: cadetblue;
+    position: static;
+    left: 50%; /*will not work*/
+}
+.position-relative{
+    background-color: cornflowerblue;
+    position: relative;
+    left: 50%;
+}
+.position-absolute{
+    background-color: thistle;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.position-fixed{
+    background-color: coral;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+/* 
+    inline - CANNOT set the width, height, margin top and margin bottom
+    
+    block - CAN set width, height, margin on all sides
+*/
+
+.display-inline{
+    display: inline;
+    width: 50%; /* will not work*/
+}
+
+.display-block{
+    display: block;
+    border: 2px solid black;
+    height: 50px;
+    margin: 25px;
+    background-color: cornflowerblue;
+}
+
+.display-inline-block{
+    display: inline-block;
+    border: 1px solid black;
+    width: 50%;
+    margin-bottom: 25px;
+}
+
+.display-none{
+    display: none;
+}
+
+div.style-01.parent{
+    background-color: darkkhaki;
+    height: auto;
+}
+
+.parent{
+    position: relative;
+    z-index: -2;
+}
+
+.child{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
